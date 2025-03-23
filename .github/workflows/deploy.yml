@@ -26,4 +26,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: baosc/baosc.github.io
           publish_dir: docs/.vuepress/dist
+          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
