@@ -1,5 +1,4 @@
 <script setup>
-import HeroDiagram from './HeroDiagram.vue'
 </script>
 
 <template>
@@ -38,7 +37,7 @@ import HeroDiagram from './HeroDiagram.vue'
     </div>
 
     <!-- Animated Diagram -->
-    <HeroDiagram />
+    HeroDiagram
   </div>
 </template>
 
