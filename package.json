@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "vitepress dev",
+    "docs-build": "vitepress build",
+    "docs-serve": "vitepress serve"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "@shikijs/vitepress-twoslash": "^2.5.0",
+    "@types/express": "^5.0.1",
+    "feed": "^4.2.2",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-group-icons": "^1.5.2",
+    "vitepress-plugin-llms": "^1.1.0",
+    "vue": "^3.5.13"
   }
 }
