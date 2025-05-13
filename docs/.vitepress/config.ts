@@ -153,8 +153,15 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-      { text: 'Config', link: '/config/', activeMatch: '/config/' },
+      { text: '导航', link: '/guide/', activeMatch: '/guide/' },
+      { text: '配置', link: '/config/', activeMatch: '/config/' },
+      { text: '项目', activeMatch: '/project/',
+        items: [
+          { text: '脚手架', link: '/project/脚手架' },
+          { text: '前端监控', link: '/project/前端监控' },
+          { text: '组件库', link: '/project/组件库' },
+        ],
+       },
       { text: 'Plugins', link: '/plugins/', activeMatch: '/plugins/' },
       {
         text: 'Resources',
