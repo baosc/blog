@@ -29,4 +29,4 @@ jobs:
           # github_token: ${{ secrets.GITHUB_TOKEN }}
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: baosc/baosc.github.io
-          publish_dir: docs/.vuepress/dist
+          publish_dir: docs/.vitepress/dist
